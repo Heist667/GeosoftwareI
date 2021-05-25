@@ -1,0 +1,41 @@
+<!-- author: Kujawa, Thomas-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uebung4_Kujawa</title>
+
+    <link rel="stylesheet" type="text/css" href="style_uebung4.css">
+    <script src="Route_Uebung4.js"></script>
+    <script defer src= "main_uebung4.js"></script>
+
+    <!-- load the necessary jquery-->
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+
+    <!-- load the leaflet-map-->
+    <!-- Source: https://leafletjs.com/examples/quick-start/ -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+            integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+            crossorigin=""/>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+            integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+            crossorigin=""></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.2/leaflet.draw.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.2/leaflet.draw.js"></script>
+
+    <!-- load turf-->
+    <!-- Source: https://turfjs.org/getting-started -->
+    <script src='https://unpkg.com/@turf/turf@6.3.0/turf.min.js'></script>
+
+</head>
+
+<body>
+    <h2>  <u>Geosoftware1-SS21 - Uebung 4 - Kujawa </u></h2>
+    <p> Draw a rectangle to show its intersection with the route. If you click on the markers on the map, you will see the local weather. You can also individually set a marker on or off the route.</p>
+    <div id= "GeosoftMap"></div>
+</body>
